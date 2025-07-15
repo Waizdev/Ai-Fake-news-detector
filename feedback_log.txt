@@ -1,0 +1,36 @@
+[2025-07-04T15:00:00Z] Feedback: correct
+Comment: example
+User Input: NASA found aliens
+----------------------------------------
+[2025-07-04T02:48:00.704Z] Feedback: correct
+User Input: Children’s views on restricting social media
+----------------------------------------
+[2025-07-04T02:50:56.337Z] Feedback: correct
+User Input: Children’s views on restricting social media
+----------------------------------------
+[2025-07-04T02:51:31.496Z] Feedback: correct
+User Input: Chicago mass shooting leaves four dead, 14 injured outside downtown lounge
+----------------------------------------
+[2025-07-04T15:51:22.137Z] Feedback: correct
+----------------------------------------
+[2025-07-04T15:51:50.241Z] Feedback: correct
+----------------------------------------
+[2025-07-04T15:52:40.273Z] Feedback: incorrect
+User Input: amitabh bachpan died
+----------------------------------------
+[2025-07-07T11:43:27.366Z] Feedback: incorrect
+----------------------------------------
+[2025-07-07T11:43:35.870Z] Feedback: correct
+----------------------------------------
+[2025-07-07T11:43:52.630Z] Feedback: incorrect
+----------------------------------------
+[2025-07-07T11:44:19.310Z] Feedback: correct
+----------------------------------------
+[2025-07-07T11:44:51.198Z] Feedback: correct
+----------------------------------------
+[2025-07-07T11:45:36.741Z] Feedback: correct
+----------------------------------------
+[2025-07-07T11:46:42.205Z] Feedback: correct
+----------------------------------------
+[2025-07-07T11:47:10.926Z] Feedback: correct
+----------------------------------------

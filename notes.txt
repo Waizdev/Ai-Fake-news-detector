@@ -1,0 +1,61 @@
+📰 Fake News Detection Chatbot (AI + FastAPI + HTML)
+----------------------------------------------------
+
+📌 PROJECT OVERVIEW:
+This project uses an AI model to detect whether a given news article is real or fake.
+The user interacts via a chatbot interface. The backend is powered by FastAPI and an
+XGBoost model trained with SentenceTransformer embeddings.
+
+👩‍💻 FEATURES:
+- AI-powered prediction of real vs fake news
+- Clean, interactive chatbot UI (HTML, CSS, JS)
+- Feedback system with rating + optional comments
+- FastAPI backend integration
+- Feedback stored in feedback_log.txt for analysis
+
+🗂 PROJECT STRUCTURE:
+.
+├── main.py                     → FastAPI backend
+├── xgb_model.pkl               → Trained XGBoost model
+├── embed_model/               → SentenceTransformer folder (unzipped)
+├── static/
+│   └── fake_news_detector_chat.html → Chatbot frontend UI
+├── feedback_log.txt            → Automatically created when feedback is submitted
+├── run_app.bat                 → Batch file to launch backend + open browser
+├── README.txt                  → You're reading it
+
+🔧 REQUIREMENTS (only once):
+Open CMD or PowerShell and run:
+
+pip install fastapi uvicorn joblib sentence-transformers xgboost
+
+🟢 HOW TO RUN:
+1. Double-click `run_app.bat` (auto starts FastAPI + opens chatbot)
+2. Enter a news sentence in the chatbot and click Send
+3. AI responds with prediction: 🟢 Real News or 🔴 Fake News
+4. Submit feedback to help improve model quality
+
+📝 EXAMPLE INPUT:
+"NASA confirms life on Mars"
+
+✅ EXAMPLE OUTPUT:
+"🔍 AI Prediction: 🔴 Fake News"
+
+📤 FEEDBACK:
+After every prediction, you can:
+- Rate: ✅ Correct, ❌ Incorrect, 🤔 Unsure
+- Optionally add a comment
+- Feedback is logged in `feedback_log.txt` with timestamp and input
+
+👩‍🏫 FOR TEACHERS:
+This project was built using real AI concepts:
+- XGBoost for classification
+- SentenceTransformer for text embeddings
+- FastAPI for backend communication
+- Clean, user-friendly frontend for interaction
+- Real-time feedback collection
+
+📬 SUBMITTED BY:
+[Syed Muhammad Waiz Rizvi and Hamza Halim]
+[UMT]
+
