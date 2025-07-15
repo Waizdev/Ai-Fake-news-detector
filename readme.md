@@ -91,7 +91,7 @@ This project is open-source and available under the MIT License.
 
 ---
 
-Let me know if you want a **Markdown badge header** or if this should be split for GitHub Pages / deployment. Say `next` to move to `main.py` update or frontend wiring.
+
 
 
 
