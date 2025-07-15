@@ -1,0 +1,6 @@
+*.py linguist-language=Python
+*.pkl linguist-vendored
+*.txt linguist-documentation
+*.bat linguist-language=Batchfile
+/static/* linguist-vendored
+/embed_model/* linguist-vendored
